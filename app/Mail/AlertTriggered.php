@@ -31,7 +31,7 @@ class AlertTriggered extends Mailable
      */
     public function build()
     {
-      return $this->from('info@xalerts.com')
+      return $this->from('alert@colmheaney.com')
         ->view('alert-triggered');
     }
 }
